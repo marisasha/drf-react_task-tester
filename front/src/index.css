@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.children {
+    width: 100vw;
+    height: 115vh;
+    margin-bottom: 300px;
+  }
+.category {
+  backdrop-filter: blur(50px);
+}
+
+.circular-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circular-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.file-upload-label {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 24px;
+  border: 2px solid #4CAF50;
+  background-color: #f1f1f1;
+  color: #4CAF50;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.file-upload-label:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.file-upload-label i {
+  margin-right: 10px;
+}
+
+.file-input {
+  display: none;
+}
